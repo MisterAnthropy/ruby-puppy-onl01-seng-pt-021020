@@ -10,7 +10,8 @@ class Dog
        puts dog.name
      end
    end
-   def print_all 
+   def self.print_all
+     clear.print_all
      
  end
     
